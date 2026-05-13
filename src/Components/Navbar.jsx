@@ -93,10 +93,10 @@ const Navbar = () => {
           
           <div className="flex items-center gap-2 text-white font-bold border-l border-gray-600 pl-8">
             <FaPhoneAlt className="text-[#FF7A00]" />
-            <span>+1 (307) 210-6056</span>
+            <span>+1 (385) 235-3442</span>
           </div>
           
-          <FaSearch className="text-white cursor-pointer hover:text-[#FF7A00] text-xl" />
+          
         </div>
 
         {/* Mobile Toggle */}
