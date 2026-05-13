@@ -3,6 +3,7 @@ import Hero from '../Components/Hero';
 import AboutUsSection from '../Components/AboutUs Section';
 import StatisticsSection from '../Components/Counter';
 import ServicesSlider from '../Components/WhatWeDo';
+import TeamSection from '../Components/TeamSection';
 const HomePage = () => {
   return (
    <div>  
@@ -13,6 +14,7 @@ const HomePage = () => {
         <AboutUsSection/>
         <StatisticsSection/>
         <ServicesSlider/>
+        <TeamSection/>
       </main>    
     </div>
   );
