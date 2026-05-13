@@ -2,6 +2,7 @@ import {React} from 'react';
 import Hero from '../Components/Hero';
 import AboutUsSection from '../Components/AboutUs Section';
 import StatisticsSection from '../Components/Counter';
+import ServicesSlider from '../Components/WhatWeDo';
 const HomePage = () => {
   return (
    <div>  
@@ -11,6 +12,7 @@ const HomePage = () => {
         </section>
         <AboutUsSection/>
         <StatisticsSection/>
+        <ServicesSlider/>
       </main>    
     </div>
   );
