@@ -5,6 +5,7 @@ import StatisticsSection from '../Components/Counter';
 import ServicesSlider from '../Components/WhatWeDo';
 import TeamSection from '../Components/TeamSection';
 import Reviews from '../Components/TestimonialCard';
+import Missions from '../Components/OurMissions';
 const HomePage = () => {
   return (
    <div>  
@@ -17,6 +18,7 @@ const HomePage = () => {
         <ServicesSlider/>
         <TeamSection/>
         <Reviews/>
+        <Missions/>
       </main>    
     </div>
   );
