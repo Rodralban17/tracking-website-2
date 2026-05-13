@@ -6,7 +6,7 @@ import TeamSection from '../Components/TeamSection';
 // import IdentitySection from '../Components/IdentitySection';
 // import StatsCounter from '../Components/StatsCounter';
 // import MissionSection from '../Components/MissionSection';
-// import FAQSection from '../Components/FAQSection';
+import FAQSection from '../Components/FAQSection';
 const AboutUsPage = () => {
   return (
    <div>
@@ -17,6 +17,7 @@ const AboutUsPage = () => {
         <AboutDetail/>
         <WhyChooseUs/>
         <TeamSection/>
+        <FAQSection/>
     </main>
    </div>
   );
