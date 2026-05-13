@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-6">
           <div className="flex gap-4 border-r border-gray-300 pr-6">
-            <a href="#" className="hover:text-[#FF7A00] transition-colors">About Us</a>
+            <a href="/about-us" className="hover:text-[#FF7A00] transition-colors">About Us</a>
             <a href="#" className="hover:text-[#FF7A00] transition-colors">Faq</a>
             <a href="#" className="hover:text-[#FF7A00] transition-colors">Blog</a>
           </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
           {['HOME', 'TRACK PACKAGE', 'ABOUT US', 'ACCOUNT'].map((item, idx) => (
             <motion.a
               key={item}
-              href={`#${item.toLowerCase().replace(' ', '-')}`}
+              href={`/${item.toLowerCase().replace(' ', '-')}`}
               whileHover={{ scale: 1.05 }}
               className={`relative text-sm font-bold tracking-wide transition-colors ${
                 idx === 0 ? 'text-[#FF7A00]' : 'text-white hover:text-[#FF7A00]'
@@ -119,7 +119,7 @@ const Navbar = () => {
           >
             <a href="#" onClick={() => setIsMobileMenuOpen(false)}>HOME</a>
             <a href="#" onClick={() => setIsMobileMenuOpen(false)}>TRACK PACKAGE</a>
-            <a href="#" onClick={() => setIsMobileMenuOpen(false)}>ABOUT US</a>
+            <a href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>ABOUT US</a>
             <a href="#" onClick={() => setIsMobileMenuOpen(false)}>ACCOUNT</a>
             <div className="flex gap-6 mt-10">
                 <FaFacebookF /> <FaXTwitter /> <FaInstagram /> <FaWhatsapp />

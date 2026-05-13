@@ -6,7 +6,7 @@ import {
 import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
 // import ServicesPage from "./Pages/ServicesPage";
-// import AboutUsPage from "./Pages/AboutUsPage";
+import AboutUsPage from "./Pages/AboutUsPage";
 // import ContactUsPage from "./Pages/ContactUsPage";
 const App = () =>{
   const router = createBrowserRouter([
@@ -22,10 +22,10 @@ const App = () =>{
         //   path: "/our-services",
         //   element: <ServicesPage/>,
         // },
-        // {
-        //   path: "/about-us",
-        //   element: <AboutUsPage/>,
-        // },
+        {
+          path: "/about-us",
+          element: <AboutUsPage/>,
+        },
         // {
         //   path: "/contact-us",
         //   element: <ContactUsPage/>,
