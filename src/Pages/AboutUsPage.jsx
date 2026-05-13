@@ -1,5 +1,6 @@
 import {React} from 'react';
 import AboutUsHero from '../Components/AboutUsHero';
+import AboutDetail from '../Components/AboutDetail';
 // import IdentitySection from '../Components/IdentitySection';
 // import StatsCounter from '../Components/StatsCounter';
 // import MissionSection from '../Components/MissionSection';
@@ -11,10 +12,7 @@ const AboutUsPage = () => {
         <section className=" ">
         <AboutUsHero/>
         </section>
-        {/* <IdentitySection/>
-        <StatsCounter/>
-        <MissionSection/>
-        <FAQSection/> */}
+        <AboutDetail/>
     </main>
    </div>
   );
