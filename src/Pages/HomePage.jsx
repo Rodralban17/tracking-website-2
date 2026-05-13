@@ -4,6 +4,7 @@ import AboutUsSection from '../Components/AboutUs Section';
 import StatisticsSection from '../Components/Counter';
 import ServicesSlider from '../Components/WhatWeDo';
 import TeamSection from '../Components/TeamSection';
+import Reviews from '../Components/TestimonialCard';
 const HomePage = () => {
   return (
    <div>  
@@ -15,6 +16,7 @@ const HomePage = () => {
         <StatisticsSection/>
         <ServicesSlider/>
         <TeamSection/>
+        <Reviews/>
       </main>    
     </div>
   );
