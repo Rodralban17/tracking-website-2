@@ -25,12 +25,12 @@ const OceanFreightPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white font-sans">
+    <div className="min-h-screen bg-white font-sans py-20">
       {/* HERO SECTION */}
       <section className="relative h-[85vh] flex items-center bg-[#0B192C] overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="assets/ocean.jpg"
+            src="/assets/ocean.jpg"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
             alt="Professional Services"
           />

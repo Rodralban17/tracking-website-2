@@ -24,14 +24,14 @@ const TrainFreightPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white font-sans">
+    <div className="min-h-screen bg-white font-sans py-27">
 
       {/* HERO SECTION */}
       <section className="relative h-[85vh] flex items-center bg-[#0B192C] overflow-hidden">
         
         <div className="absolute inset-0 z-0">
           <img 
-            src="assets/train.jpg"
+            src="/assets/train.jpg"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
             alt="Train Freight Logistics"
           />

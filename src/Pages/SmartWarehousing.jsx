@@ -24,14 +24,14 @@ const SmartWarehousingPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white font-sans">
+    <div className="min-h-screen bg-white font-sans py-15">
 
       {/* HERO SECTION */}
       <section className="relative h-[85vh] flex items-center bg-[#0B192C] overflow-hidden">
 
         <div className="absolute inset-0 z-0">
           <img 
-            src="assets/warehouse.jpg"
+            src="/assets/warehouse.jpg"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
             alt="Smart Warehousing"
           />

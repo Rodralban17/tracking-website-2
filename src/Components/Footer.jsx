@@ -67,10 +67,10 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-bold mb-6 border-l-4 border-[#FF7A00] pl-4">Company</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
-              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">About Our Company</a></li>
-              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Meet the Experts</a></li>
+              <li><a href="/about-us" className="hover:text-[#FF7A00] transition-colors">About Our Company</a></li>
+              {/* <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Meet the Experts</a></li>
               <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Latest News & Blog</a></li>
-              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Case Studies</a></li>
+              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Case Studies</a></li> */}
             </ul>
           </div>
 
@@ -78,10 +78,11 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-bold mb-6 border-l-4 border-[#FF7A00] pl-4">Our Services</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
-              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Air Freight Logistics</a></li>
-              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Ocean Cargo Shipping</a></li>
-              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Smart Warehousing</a></li>
-              <li><a href="#" className="hover:text-[#FF7A00] transition-colors">Road Transport</a></li>
+              <li><a href="air-freight" className="hover:text-[#FF7A00] transition-colors">Air Freight Logistics</a></li>
+              <li><a href="sea-freight" className="hover:text-[#FF7A00] transition-colors">Ocean Cargo Shipping</a></li>
+              <li><a href="train-freight" className="hover:text-[#FF7A00] transition-colors">Train Transport</a></li>
+              <li><a href="road-freight" className="hover:text-[#FF7A00] transition-colors">Road Transport</a></li>
+              <li><a href='smart-warehousing' className="hover:text-[#FF7A00] transition-colors">Smart Warehousing</a></li>
             </ul>
           </div>
 
@@ -95,7 +96,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <FaPhoneAlt className="text-[#FF7A00] shrink-0" />
-                <span>+237 6XX XXX XXX</span>
+                <span>+1 (385) 235-3442</span>
               </li>
               <li className="flex items-center gap-3">
                 <FaEnvelope className="text-[#FF7A00] shrink-0" />

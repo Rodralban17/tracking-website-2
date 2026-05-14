@@ -17,26 +17,26 @@ const FloatingActionContact = () => {
       icon: <FaWhatsapp size={24} />, 
       color: 'bg-[#25D366]', 
       label: 'WhatsApp',
-    //   link: 'https://wa.me/+13613883484' 
+      link: 'https://wa.me/13852353442' 
     },
-    { 
-      icon: <Phone size={24} />, 
-      color: 'bg-[#00E676]', 
-      label: 'Call Us',
-      //link: 'tel:+13613883484' 
-    },
+    // { 
+    //   icon: <Phone size={24} />, 
+    //   color: 'bg-[#00E676]', 
+    //   label: 'Call Us',
+    //   link: 'tel:+13613883484' 
+    // },
     // { 
     //   icon: <Mail size={24} />, 
     //   color: 'bg-[#FF5252]', 
     //   label: 'Email',
     //   link: 'cargonexus085@gmail.com' 
     // },
-    { 
-      icon: <MessageSquare size={24} />, 
-      color: 'bg-[#FF4081]', 
-      label: 'iMessage',
-      //link: 'imessage://deltallogistics8@icloud.com'
-    },
+    // { 
+    //   icon: <MessageSquare size={24} />, 
+    //   color: 'bg-[#FF4081]', 
+    //   label: 'iMessage',
+    //   link: 'imessage://deltallogistics8@icloud.com'
+    // },
   ];
 
   return (

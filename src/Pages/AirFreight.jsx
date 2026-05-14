@@ -25,13 +25,13 @@ const AirFreightPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white font-sans">
+    <div className="min-h-screen bg-white font-sans py-15">
       {/* 1. ULTRA-MODERN HERO SECTION */}
       <section className="relative h-[85vh] flex items-center bg-[#0B192C] overflow-hidden">
         {/* Background Image with Technical Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="assets/air.jpg" // Use a high-quality cargo plane shot
+            src="/assets/air.jpg" // Use a high-quality cargo plane shot
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
             alt="Air Cargo Logistics"
           />
