@@ -3,9 +3,11 @@ import { Navigate, Outlet } from 'react-router-dom'
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import FloatingActionContact from '../Components/FloatingActionContact';
+import ScrollToTop from '../Components/ScrollToTop';
 const Layout = () =>{
     return(          
         <div className='min-h-screen bg-gray-50'>
+            <ScrollToTop/>
             <Navbar/>
        <div className='content'>
         <Outlet/>
