@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const AboutUsHero = () => {
   return (
-    <section className="relative min-h-[60vh] flex items-center bg-[#0B192C] overflow-hidden">
+    <section className="relative min-h-[60vh] flex items-center bg-[#0B192C] overflow-hidden py-40">
       {/* Right Side Image with Angle Mask */}
       <div className="absolute right-0 top-0 w-full lg:w-2/3 h-full z-0">
         <img 

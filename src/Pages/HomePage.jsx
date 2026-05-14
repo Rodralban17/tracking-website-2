@@ -19,6 +19,7 @@ const HomePage = () => {
         <TeamSection/>
         <Reviews/>
         <Missions/>
+        
       </main>    
     </div>
   );

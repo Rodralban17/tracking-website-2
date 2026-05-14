@@ -7,7 +7,7 @@ const ServicesSlider = () => {
   const navigate = useNavigate();
 
   const services = [
-    { id: 'ocean-freight', name: 'Ocean Freight', icon: <FaShip />, image: 'assets/ocean.jpg' },
+    { id: 'sea-freight', name: 'Ocean Freight', icon: <FaShip />, image: 'assets/ocean.jpg' },
     { id: 'road-freight', name: 'Road Freight', icon: <FaTruck />, image: 'assets/road.jpg' },
     { id: 'train-freight', name: 'Train Freight', icon: <FaTrain />, image: 'assets/train.jpg' },
     { id: 'air-freight', name: 'Air Freight', icon: <FaPlane />, image: 'assets/air.jpg' },
