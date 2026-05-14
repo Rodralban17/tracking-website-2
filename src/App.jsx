@@ -12,6 +12,8 @@ import SeaFreightPage from "./Pages/OceanFreight";
 import RoadFreightPage from "./Pages/RoadFreight";
 import TrainFreightPage from "./Pages/TrainFreight";
 import SmartWarehousingPage from "./Pages/SmartWarehousing";
+import LoginPage from "./Pages/LoginPage";
+import RegisterPage from "./Pages/RegisterPage";
 // import ServicesPage from "./Pages/ServicesPage";
 // import ContactUsPage from "./Pages/ContactUsPage";
 const App = () =>{
@@ -51,7 +53,15 @@ const App = () =>{
         {
           path: "/services/smart-warehousing",
           element: <SmartWarehousingPage/>,
-        }
+        },
+        {
+          path: "/login",
+          element: <LoginPage/>,
+        },
+        {
+          path: "/register",
+          element: <RegisterPage/>,
+        },
         // {
         //   path: "/services",
         //   element: <ServicesPage/>,
