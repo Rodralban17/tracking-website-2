@@ -3,7 +3,7 @@ import {
   createBrowserRouter, 
   RouterProvider,
 } from "react-router-dom";
-import Layout from "./Pages/Layout";
+import {Layout, RequireAuth} from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
 import AirFreightPage from "./Pages/AirFreight";
 import AboutUsPage from "./Pages/AboutUsPage";
@@ -14,8 +14,8 @@ import TrainFreightPage from "./Pages/TrainFreight";
 import SmartWarehousingPage from "./Pages/SmartWarehousing";
 import LoginPage from "./Pages/LoginPage";
 import RegisterPage from "./Pages/RegisterPage";
-// import ServicesPage from "./Pages/ServicesPage";
-// import ContactUsPage from "./Pages/ContactUsPage";
+import Dashboard from "./Pages/Dashboard";
+import {authGuardLoader, dashboardLoader} from "./lib/loaders";
 const App = () =>{
   const router = createBrowserRouter([
     {
@@ -62,16 +62,20 @@ const App = () =>{
           path: "/register",
           element: <RegisterPage/>,
         },
-        // {
-        //   path: "/services",
-        //   element: <ServicesPage/>,
-        // },
-        // {
-        //   path: "/contact-us",
-        //   element: <ContactUsPage/>,
-        // }
       ]
     },
+    {
+      path: "/",
+      element: <RequireAuth/>,
+      loader: authGuardLoader,
+      children: [
+        {
+          path: "/dashboard",
+          element: <Dashboard/>,
+          loader: dashboardLoader
+        },
+      ]
+    }
   ])
   return (
     <RouterProvider router={router}/>
