@@ -4,10 +4,10 @@ import { Mail, Lock, ArrowRight, ShieldCheck, AlertCircle, Eye, EyeOff } from 'l
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-//import apiRequest from '../lib/apiRequest';
-//import { AuthContext } from '../context/AuthContext';
+import apiRequest from '../lib/apiRequest';
+import { AuthContext } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-//import { ACCESS_TOKEN, REFRESH_TOKEN } from '../lib/constants';
+import { ACCESS_TOKEN, REFRESH_TOKEN } from '../lib/constants';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -19,7 +19,7 @@ const schema = yup.object().shape({
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
-  //const { updateUser } = useContext(AuthContext);
+  const { updateUser } = useContext(AuthContext);
 
   const {
     register,
