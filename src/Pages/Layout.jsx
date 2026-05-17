@@ -30,6 +30,7 @@ const RequireAuth = () =>{
             <ProtectedRoute>
             <div>
                 <div className='min-h-screen bg-gray-50'>
+                <ScrollToTop/>
                 <Navbar/>
             <div className='content'>
                 <Outlet/>

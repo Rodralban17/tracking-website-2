@@ -49,7 +49,7 @@ const Shipments = () => {
     doc.setFontSize(22);
     doc.setTextColor(255, 255, 255);
     doc.setFont("helvetica", "bold");
-    doc.text("LOGISTIC MANIFEST", 14, 25);
+    doc.text("DELTA CARGO LOGISTICS - MANIFEST", 14, 25);
     
     doc.setFontSize(10);
     doc.setTextColor(255, 122, 0); // #FF7A00
