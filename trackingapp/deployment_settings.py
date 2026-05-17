@@ -6,10 +6,10 @@ from .settings import BASE_DIR
 ALLOWED_HOSTS = [os.environ.get('RENDER_EXTERNAL_HOSTNAME')]
 CSRF_TRUSTED_ORIGINS = ['https://'+os.environ.get('RENDER_EXTERNAL_HOSTNAME')]
 
-DEBUG = os.environ.get('DEBUG')
+DEBUG = TRUE
 SECRET_KEY = os.environ.get('SECRET_KEY')
-BREVO_API_KEY = os.environ.get('BREVO_API_KEY')
-DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
+# BREVO_API_KEY = os.environ.get('BREVO_API_KEY')
+# DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
