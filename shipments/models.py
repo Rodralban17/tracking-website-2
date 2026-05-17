@@ -3,7 +3,7 @@ import uuid
 from django.db import models
 
 def generate_tracking_number():
-    return f"CNX-{uuid.uuid4().hex[:10].upper()}"
+    return f"DCL-{uuid.uuid4().hex[:10].upper()}"
         
 class Shipment(models.Model):
 
