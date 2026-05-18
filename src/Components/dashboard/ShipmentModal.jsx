@@ -193,6 +193,13 @@ const ShipmentModal = ({ onClose, onCreated, mode = "create", initialData, isFul
                     <option value="PENDING">Deposited</option>
                     <option value="IN_TRANSIT">In Transit</option>
                     <option value="DELIVERED">Delivered</option>
+                    <option value="PICKED UP">PICKED UP</option>
+                    <option value="ON HOLD">ON HOLD</option>
+                    <option value="OUT OF DELIVERY">OUT OF DELIVERY</option>
+                    <option value="ENROUTE">ENROUTE</option>
+                    <option value="CANCELLED">CANCELLED</option>
+                    <option value="RETURNED">RETURNED</option>
+                    <option value="REGISTERED">REGISTERED</option>
                 </select></div>
             </div>
         </div>

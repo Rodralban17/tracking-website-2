@@ -78,11 +78,11 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-bold mb-6 border-l-4 border-[#FF7A00] pl-4">Our Services</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
-              <li><a href="air-freight" className="hover:text-[#FF7A00] transition-colors">Air Freight Logistics</a></li>
-              <li><a href="sea-freight" className="hover:text-[#FF7A00] transition-colors">Ocean Cargo Shipping</a></li>
-              <li><a href="train-freight" className="hover:text-[#FF7A00] transition-colors">Train Transport</a></li>
-              <li><a href="road-freight" className="hover:text-[#FF7A00] transition-colors">Road Transport</a></li>
-              <li><a href='smart-warehousing' className="hover:text-[#FF7A00] transition-colors">Smart Warehousing</a></li>
+              <li><a href="services/air-freight" className="hover:text-[#FF7A00] transition-colors">Air Freight Logistics</a></li>
+              <li><a href="services/sea-freight" className="hover:text-[#FF7A00] transition-colors">Ocean Cargo Shipping</a></li>
+              <li><a href="services/train-freight" className="hover:text-[#FF7A00] transition-colors">Train Transport</a></li>
+              <li><a href="services/road-freight" className="hover:text-[#FF7A00] transition-colors">Road Transport</a></li>
+              <li><a href="services/smart-warehousing" className="hover:text-[#FF7A00] transition-colors">Smart Warehousing</a></li>
             </ul>
           </div>
 
@@ -92,7 +92,8 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-400 text-sm">
               <li className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-[#FF7A00] mt-1 shrink-0" />
-                <span>Yaoundé, Centre Region,<br/>Cameroon</span>
+                <span>Atlanta, Georgia, USA
+Address: 1021 N Outer Loop Road, Atlanta, GA 30354, United States,<br/>Cameroon</span>
               </li>
               <li className="flex items-center gap-3">
                 <FaPhoneAlt className="text-[#FF7A00] shrink-0" />
@@ -100,7 +101,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <FaEnvelope className="text-[#FF7A00] shrink-0" />
-                <span>contact@deltacargo.cm</span>
+                <span>deltacargologisticss@gmail.com</span>
               </li>
             </ul>
           </div>

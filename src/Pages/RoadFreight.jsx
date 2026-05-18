@@ -14,7 +14,7 @@ import {
 const RoadFreightPage = () => {
   const contactInfo = {
     phone: "+1 (385) 235-3442",
-    email: "support@deltacargo.com"
+    email: "deltacargologisticss@gmail.com"
   };
 
   const performanceStats = [
