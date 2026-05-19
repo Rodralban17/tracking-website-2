@@ -128,9 +128,9 @@ const ShipmentModal = ({ onClose, onCreated, mode = "create", initialData, isFul
         {/* ENTITY SECTION */}
         <div className="grid lg:grid-cols-2 gap-8">
           {/* SELLER */}
-          <div className="bg-gray-50/50 p-6 rounded-[2rem] border-2 border-dashed border-gray-100">
-            <h3 className="text-[#0B192C] text-xs font-black mb-6 flex items-center gap-2 uppercase tracking-widest">
-              <div className="p-2 bg-[#0B192C] text-white rounded-lg"><Send size={14} /></div> Seller Registry
+          <div className="bg-[#0B192C] p-6 rounded-[2rem] border-2 border-dashed border-gray-100">
+            <h3 className="text-[#FF7A00] text-xs font-black mb-6 flex items-center gap-2 uppercase tracking-widest">
+              <div className="p-2 bg-[#FF7A00] text-white rounded-lg"><Send size={14} /></div> Seller Registry
             </h3>
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="sm:col-span-2"><label className={labelClass}>Entity Name</label><input {...register("seller_name")} className={inputClass} /><ErrorText error={errors.seller_name} /></div>
@@ -141,7 +141,7 @@ const ShipmentModal = ({ onClose, onCreated, mode = "create", initialData, isFul
           </div>
 
           {/* RECEIVER */}
-          <div className="bg-gray-50/50 p-6 rounded-[2rem] border-2 border-dashed border-gray-100">
+          <div className="bg-[#0B192C] p-6 rounded-[2rem] border-2 border-dashed border-gray-100">
             <h3 className="text-[#FF7A00] text-xs font-black mb-6 flex items-center gap-2 uppercase tracking-widest">
               <div className="p-2 bg-[#FF7A00] text-white rounded-lg"><MapPin size={14} /></div> Receiver Registry
             </h3>
@@ -205,9 +205,9 @@ const ShipmentModal = ({ onClose, onCreated, mode = "create", initialData, isFul
         </div>
 
         {/* TIME & FINANCIALS */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="bg-[#0B192C] grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 grid sm:grid-cols-2 gap-4">
-                <div className="bg-gray-50 p-6 rounded-[2rem]">
+                <div className="bg-[#0B192C] p-6 rounded-[2rem]">
                     <h4 className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-4 flex items-center gap-2"><CalendarDays size={14} /> Schedule</h4>
                     <div className="grid grid-cols-2 gap-3">
                         <div><label className={labelClass}>Pickup Day</label><input placeholder="YYYY/MM/DD" {...register("pickup_day")} className={inputClass} /></div>
@@ -216,7 +216,7 @@ const ShipmentModal = ({ onClose, onCreated, mode = "create", initialData, isFul
                         <div className="col-span-2"><label className={labelClass}>Departure Time</label><input placeholder="HH:MM" {...register("departure_time")} className={inputClass} /></div>
                     </div>
                 </div>
-                <div className="bg-gray-50 p-6 rounded-[2rem]">
+                <div className="bg-[#0B192C] p-6 rounded-[2rem]">
                     <h4 className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-4 flex items-center gap-2"><CreditCard size={14} /> Billing</h4>
                     <div className="space-y-4">
                         <div><label className={labelClass}>Payment Method</label><select {...register("payment_method")} className={inputClass}>
@@ -245,7 +245,7 @@ const ShipmentModal = ({ onClose, onCreated, mode = "create", initialData, isFul
                 </div>
             </div>
             
-            <div className="space-y-4">
+            <div className="space-y-4 bg-[#0B192C]">
                 <div>
                     <label className={labelClass}>Product Description</label>
                     <textarea {...register("product_description")} placeholder="Detailed inventory list..." className={`${inputClass} h-32 pt-4 resize-none`} />
