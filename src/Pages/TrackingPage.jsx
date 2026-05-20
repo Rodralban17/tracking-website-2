@@ -427,7 +427,7 @@ const TrackingPage = () => {
             <p className="text-gray-400 text-sm font-medium">
               Lost your tracking number?{" "}
               <a
-                href="/contact"
+                href="/contact-us"
                 className="text-[#0B192C] font-black hover:text-[#FF7A00] underline decoration-[#FF7A00]/30 transition-colors"
               >
                 Contact Support
