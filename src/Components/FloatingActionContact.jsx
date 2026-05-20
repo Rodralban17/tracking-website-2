@@ -25,12 +25,12 @@ const FloatingActionContact = () => {
     //   label: 'Call Us',
     //   link: 'tel:+13613883484' 
     // },
-    // { 
-    //   icon: <Mail size={24} />, 
-    //   color: 'bg-[#FF5252]', 
-    //   label: 'Email',
-    //   link: 'cargonexus085@gmail.com' 
-    // },
+    { 
+      icon: <Mail size={24} />, 
+      color: 'bg-[#FF5252]', 
+      label: 'Email',
+      link: 'deltacargologisticss@gmail.com' 
+    },
     // { 
     //   icon: <MessageSquare size={24} />, 
     //   color: 'bg-[#FF4081]', 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaArrowRight, FaStar, FaChevronRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -70,6 +71,7 @@ const Hero = () => {
             {slides[currentSlide].title}
           </h2>
 
+          <Link to="/track-package" className="inline-block">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -78,6 +80,7 @@ const Hero = () => {
             {slides[currentSlide].buttonText}
             <FaArrowRight className="group-hover:translate-x-2 transition-transform" />
           </motion.button>
+          </Link>
         </motion.div>
 
         {/* Slide Indicators */}

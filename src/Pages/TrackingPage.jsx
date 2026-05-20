@@ -302,7 +302,6 @@ const TrackingPage = () => {
       }
       `}
       </style>
-      <ToastContainer position="top-center" />
 
       {/* HERO SECTION */}
       <section className="relative py-40 bg-white overflow-hidden">
