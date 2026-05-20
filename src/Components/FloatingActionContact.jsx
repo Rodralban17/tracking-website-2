@@ -29,7 +29,7 @@ const FloatingActionContact = () => {
       icon: <Mail size={24} />, 
       color: 'bg-[#FF5252]', 
       label: 'Email',
-      link: 'deltacargologisticss@gmail.com' 
+      link: 'mailto:deltacargologisticss@gmail.com' 
     },
     // { 
     //   icon: <MessageSquare size={24} />, 
