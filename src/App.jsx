@@ -15,6 +15,7 @@ import SmartWarehousingPage from "./Pages/SmartWarehousing";
 import LoginPage from "./Pages/LoginPage";
 import RegisterPage from "./Pages/RegisterPage";
 import Dashboard from "./Pages/Dashboard";
+import ContactUsPage from "./Pages/ContactUsPage";
 import {authGuardLoader, dashboardLoader} from "./lib/loaders";
 const App = () =>{
   const router = createBrowserRouter([
@@ -62,6 +63,10 @@ const App = () =>{
           path: "/register",
           element: <RegisterPage/>,
         },
+        {
+          path: "/contact-us",
+          element: <ContactUsPage/>,
+        }
       ]
     },
     {
