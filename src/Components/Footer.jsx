@@ -102,6 +102,10 @@ Address: 1021 N Outer Loop Road, Atlanta, GA 30354, United States,<br/>Cameroon<
                 <FaEnvelope className="text-[#FF7A00] shrink-0" />
                 <span>deltacargologisticss@gmail.com</span>
               </li>
+              <li className="flex items-center gap-3">
+                <FaEnvelope className="text-[#FF7A00] shrink-0" />
+                <span>deltalcargo@icloud.com</span>
+              </li>
             </ul>
           </div>
         </div>

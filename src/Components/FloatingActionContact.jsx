@@ -31,12 +31,12 @@ const FloatingActionContact = () => {
       label: 'Email',
       link: 'mailto:deltacargologisticss@gmail.com' 
     },
-    // { 
-    //   icon: <MessageSquare size={24} />, 
-    //   color: 'bg-[#FF4081]', 
-    //   label: 'iMessage',
-    //   link: 'imessage://deltallogistics8@icloud.com'
-    // },
+    { 
+      icon: <MessageSquare size={24} />, 
+      color: 'bg-[#FF4081]', 
+      label: 'iMessage',
+      link: 'imessage://deltalcargo@icloud.com'
+    },
   ];
 
   return (
