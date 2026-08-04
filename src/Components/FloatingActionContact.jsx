@@ -35,7 +35,7 @@ const FloatingActionContact = () => {
       icon: <MessageSquare size={24} />, 
       color: 'bg-[#FF4081]', 
       label: 'iMessage',
-      link: 'imessage://deltalcargo@icloud.com'
+      link: 'imessage://deltacargologisticss@gmail.com'
     },
   ];
 
